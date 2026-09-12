@@ -1,0 +1,20 @@
+{
+  "name": "discord-bump-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord que executa o comando /bump automaticamente a cada 2 horas",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": ["discord", "bot", "bump"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
