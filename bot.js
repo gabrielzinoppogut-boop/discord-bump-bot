@@ -26,7 +26,7 @@ client.on('interactionCreate', async (interaction) => {
   if (commandName === 'bump-start') {
     // Verifica se já existe um intervalo ativo neste servidor
     const serverId = `${guildId}-${channelId}`;
-    
+     
     if (activeIntervals.has(serverId)) {
       return interaction.reply({
         content: '⚠️ Já existe um bump automático ativo neste canal!',
